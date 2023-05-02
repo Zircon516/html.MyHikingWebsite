@@ -1,0 +1,69 @@
+html{
+    color: Wheat;
+}
+h1{
+    color: #224B0C;
+}
+
+h2{
+    color: #AC4425;
+}
+
+h3{
+    color: rgb(12, 145, 63); text-align: center;
+}
+
+p{
+    color: #355764;
+    padding: 10px;
+    margin: 5px;
+}
+
+a{
+    color: #FA7070;
+    font-family: Consolas;
+}
+
+li{
+    color: #07909a;
+}
+
+button{
+    color: #DF7861;
+    background-color: #FCF8E8;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.Italic{
+    font-style: italic; color: #F97B22;
+}
+
+.cute{
+    font-style: oblique;
+}
+
+.box{
+    border:0.5px solid rgb(61, 208, 174);
+    border-width: 0px 5px 0px 5px;
+}
+
+hr{
+    color: #A9907E;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img{
+    border: 3px solid rgb(33, 147, 92);
+}

@@ -1,0 +1,24 @@
+html{
+    color: Wheat;
+}
+h1{
+    color: #40513B;
+}
+
+h2{
+    color: #7AA874;
+}
+
+p{
+    color: #7C9070;
+}
+
+a{
+    color: #FA7070;
+    font-family: Consolas;
+}
+
+.Italic{font-style: italic; color: #F97B22;}
+.cute{font-style: oblique;}
+
+hr{color: #A9907E;}
