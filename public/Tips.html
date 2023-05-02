@@ -1,39 +1,88 @@
-<!-- This is one possible solution -->
-<h1>Welcome to the River besides Shatin!</h1>
-<h2>Location</h2>
-<p>
-  Your are recommend to start at ShaTin Park
-</p>
-<img src="../image/start.png" height="200">
-<p>
-  And I always end my trip in University Station
-</p>
- <img src="../image/end.png" height="220">
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en" style="background: #F6FFDE;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style_on_Tips.css">
+</head>
 
-<a href="https://www.google.com/maps?cid=9469820943580683636">
-  <button>Google Map</button>
-</a>
+<body>
+  <h1>Welcome Shatin River!</h1>
+  <h2>Location</h2>
+  <div>
+    <div>
+      <div class="box" style="text-align: center;">
+        <p>
+          Your are recommend to start at ShaTin Park
+        </p>  
+        <img src="../image/start.png" height="200" width="400" class="img"> 
+      </div>
 
-<h2>What to bring</h2>
-<ul>
-  <li>Your <b>Wallet</b></li>
-  <li>Water</li>
-  <li>Phone</li>
-  <li>Your watch</li>
-</ul>
-<p>That's all!!!</p>
+      <div style="text-align: center; padding-top: 5px;">
+        <img src="../image/other_svg/iconmonstr-arrow-down-alt-lined.svg" width="40">
+      </div>
 
-<h2>What you Need to do</h2>
-<ol>
-  <li>Take some photoes</li>
-  <li>Say Hi to birds</li>
-  <li>Looking at the distant mountains</li>
-  <li>Share your photo with me <b>(Highly Recommended)</b>!</li>
-</ol>
+      <div class="box" style="text-align: center;">
+        <p>
+          And I always end my trip in University Station
+        </p>
+        <img src="../image/end.png" height="200" width="400" class="img">
+      </div>
+    </div>
+    
+    <br>
+    <br>
 
-<h2>Remind</h2>
-<p>
-  This trip takes about 1hr, so take care of your own.
-  <br>
-  Part of the walkway needs to pass through the jungle, please be careful of the flying insects inside.
-</p>
+    <div style="background-color: rgb(189, 240, 166); padding: 15px" draggable="true">
+      <h3>
+        click here to see google map
+      </h3>
+
+      <div id="button" style="text-align: center;">
+        <a href="https://www.google.com/maps?cid=9469820943580683636">
+          <button>Google Map</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>What to bring</h2>
+    <ul>
+      <li>Your <b>Wallet</b></li>
+      <li>Water</li>
+      <li>Phone</li>
+      <li>Your watch</li>
+    </ul>
+  </div>
+  <p>That's all!!!</p>
+
+  <div>
+    <h2>What you Need to do</h2>
+    <ol>
+      <li>Take some photoes</li>
+      <li>Say Hi to birds</li>
+      <li>Looking at the distant mountains</li>
+      <li>Share your photo with me <b>(Highly Recommended)</b>!</li>
+    </ol>
+  </div>
+
+  <div>
+    <h2>Remind</h2>
+    <p>
+      This trip takes about 1hr, so take care of your own.
+      <br>
+      Part of the walkway needs to pass through the jungle, please be careful of the flying insects inside.
+    </p>
+  </div>
+
+  <div style="text-align: center; background-color: khaki;">
+    <p style="color: firebrick;">
+      <b>If you sucess please cheer yourself up!!!</b>
+    </p>
+    <img src="../image/sucess.png" width="200">
+  </div>
+</body>
